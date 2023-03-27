@@ -2,6 +2,7 @@
   text-align: center;
 }
 
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -28,6 +29,19 @@
   color: #61dafb;
 }
 
+.myInput::placeholder{
+  position: absolute;
+  /* text-align: center; */
+  top: 50px; 
+  left: 35px
+}
+
+.myInputDos::placeholder{
+  position: absolute;
+  /* text-align: center; */
+  top: 42px; 
+  left: 90px
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

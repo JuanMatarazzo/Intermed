@@ -16,6 +16,8 @@ function App() {
           <img src={logogrupoie} alt="asd" className="w-56" />
         </div>
       </nav>
+
+      {/* Section 1 Datos Personales */}
       <section className="w-full flex py-8">
         <div className="w-1/3 flex flex-col items-center justify-around">
           <div className="flex gap-5">
@@ -50,7 +52,7 @@ function App() {
             <div>
               <div className="w-17 flex flex-col items-center px-6">
                 <input className="border-b w-full border-black"></input>
-                <label>#####</label>
+                <label>Edad</label>
               </div>
             </div>
             <div>
@@ -101,7 +103,7 @@ function App() {
             </div>
             <div className="flex gap-1">
               <input type="checkbox"></input>
-              <p>Nose</p>
+              <p>Base</p>
             </div>
             <div className="flex gap-1">
               <input type="checkbox"></input>
@@ -110,31 +112,35 @@ function App() {
           </div>
         </div>
       </section>
+
+      {/* Section 2 Datos Salud*/}
       <section className="w-full flex">
         <div className="w-1/3 flex justify-center items-center">
           <div className="flex flex-col justify-center items-center">
             <input className="border-b w-full border-black"></input>
-            <label>#####</label>
+            <label>Motivo de Despacho</label>
           </div>
         </div>
         <div className="w-1/3 flex justify-center items-center">
           <div className="flex flex-col justify-center items-center">
             <input className="border-b w-full border-black"></input>
-            <label>#####</label>
+            <label>Despachador</label>
           </div>
         </div>
         <div className="w-1/3 flex justify-center items-center gap-6">
           <div className="flex flex-col justify-center items-center">
             <input className="border-b w-full border-black"></input>
-            <label>#####</label>
+            <label>N° de Salida(ID)</label>
           </div>
           <div className="flex flex-col justify-center items-center">
             <input className="border-b w-full border-black"></input>
-            <label>#####</label>
+            <label>Tipo de Afilacion</label>
           </div>
         </div>
       </section>
-      <section className="w-full flex mt-6">
+
+      {/* Section 3 Antecedentes */}
+      <section className="w-full flex mt-6 ml-4 border-t border-t-black">
         <div className="w-3/4 flex flex-col gap-3">
           <p className="text-xl font-semibold ml-5">Antecedentes Patologicos</p>
           <div className="w-full flex gap-3">
@@ -163,89 +169,92 @@ function App() {
             <div className="1/5">
               <div className="flex gap-1">
                 <input type="checkbox"></input>
-                <p>Ninguno</p>
+                <p>Asma</p>
               </div>
               <div className="flex gap-1">
                 <input type="checkbox"></input>
-                <p>ACV</p>
+                <p>Epoc</p>
               </div>
               <div className="flex gap-1">
                 <input type="checkbox"></input>
-                <p>Convulsiones</p>
+                <p>IAM</p>
               </div>
               <div className="flex gap-1">
                 <input type="checkbox"></input>
-                <p>Psíquiatricos</p>
+                <p>Angor</p>
               </div>
               <div className="flex gap-1">
                 <input type="checkbox"></input>
-                <p>HIV</p>
+                <p>Arritmia</p>
               </div>
             </div>
+
             <div className="1/5">
               <div className="flex gap-1">
                 <input type="checkbox"></input>
-                <p>Ninguno</p>
+                <p>HTA</p>
               </div>
               <div className="flex gap-1">
                 <input type="checkbox"></input>
-                <p>ACV</p>
+                <p>ICC</p>
               </div>
               <div className="flex gap-1">
                 <input type="checkbox"></input>
-                <p>Convulsiones</p>
+                <p>DBT</p>
               </div>
               <div className="flex gap-1">
                 <input type="checkbox"></input>
-                <p>Psíquiatricos</p>
+                <p>Dislipidemia</p>
               </div>
               <div className="flex gap-1">
                 <input type="checkbox"></input>
-                <p>HIV</p>
+                <p>Hipertiroidismo</p>
               </div>
             </div>
+
             <div className="1/5">
               <div className="flex gap-1">
                 <input type="checkbox"></input>
-                <p>Ninguno</p>
+                <p>Hipotiroidismo</p>
               </div>
               <div className="flex gap-1">
                 <input type="checkbox"></input>
-                <p>ACV</p>
+                <p>Insuf. Renal</p>
               </div>
               <div className="flex gap-1">
                 <input type="checkbox"></input>
-                <p>Convulsiones</p>
+                <p>Insuf. Hepática</p>
               </div>
               <div className="flex gap-1">
                 <input type="checkbox"></input>
-                <p>Psíquiatricos</p>
+                <p>Neoplasis</p>
               </div>
               <div className="flex gap-1">
                 <input type="checkbox"></input>
-                <p>HIV</p>
+                <p>Obesidad</p>
               </div>
             </div>
+
             <div className="1/5">
               <div className="flex gap-1">
                 <input type="checkbox"></input>
-                <p>Ninguno</p>
+                <p>Alcoholismo</p>
               </div>
               <div className="flex gap-1">
                 <input type="checkbox"></input>
-                <p>ACV</p>
+                <p>Tabaquismo</p>
               </div>
               <div className="flex gap-1">
                 <input type="checkbox"></input>
-                <p>Convulsiones</p>
+                <p>Alergias</p>
               </div>
               <div className="flex gap-1">
                 <input type="checkbox"></input>
-                <p>Psíquiatricos</p>
+                <p>Insuf. Venosa</p>
               </div>
               <div className="flex gap-1">
                 <input type="checkbox"></input>
-                <p>HIV</p>
+                <p>Arter. periférica</p>
               </div>
             </div>
           </div>
@@ -253,8 +262,41 @@ function App() {
         <div className="w-1/4">
           <p>Medicación Actual</p>
           <textarea
+            // id="myInput"
             placeholder="Escriba aquí"
-            className="border border-black"
+            className="myInput border border-black h-32"
+          ></textarea>
+        </div>
+      </section>
+
+      {/* Section 4 */}
+      <section className="w-full flex mt-6 ml-4 border-t border-t-black">
+        <div className="w-3/4 flex flex-col gap-3 ">
+          <p className="text-xl font-semibold ml-5">Signos vitales</p>
+        
+        </div>
+
+        <div className="w-2/4">
+          <div className="flex gap-2 1/3 flex-wrap">
+            <label>Aspecto</label>
+            <div className="flex gap-2 ">
+              <p>Bueno</p>
+              <input type="checkbox" />
+            </div>
+            <div className="flex gap-2">
+              <p>Malo</p>
+              <input type="checkbox" />
+            </div>
+            <div className="flex gap-2">
+              <p>Regular</p>
+              <input type="checkbox" />
+            </div>
+          </div>
+          <p>Sensorio</p>
+          <textarea
+            // id="myInput"
+            placeholder="Escriba aquí"
+            className="myInputDos border border-black h-28 w-72"
           ></textarea>
         </div>
       </section>
