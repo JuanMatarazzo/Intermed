@@ -3,8 +3,23 @@ import intermedlogo from "./logos/intermedLogo2.png";
 import logogrupoie from "./logos/gropoielogo.jpeg";
 import SignatureCanvas from "react-signature-canvas";
 import { useRef, useState, useEffect } from "react";
+// import { Document } from "@react-pdf/renderer";
+// import { PDFDownloadLink } from "@react-pdf/renderer";
+// import ReactPdfPrint from './ReactPdfPrint'
+import { useReactToPrint } from "react-to-print";
 
 function App() {
+  // PDF DESCARGAR----
+  const componentRef = useRef();
+
+  const handlePrint = useReactToPrint({
+    content: () => componentRef.current,
+    documentTitle: "intermed-data",
+    onAfterPrint: () => alert("Success"),
+  });
+
+  // FINAL PDF
+
   //Signature
 
   const signatureRef = useRef({});
@@ -47,7 +62,7 @@ function App() {
     console.log(imageData);
   }, [imageData]);
 
-  console.log(imageData);
+  // console.log(imageData);
 
   //Signature ending
 
@@ -153,10 +168,15 @@ function App() {
 
   return (
     <>
+    <div ref={componentRef}>
       <nav className="flex h-24 justify-around items-center border-b border-black">
         <div>
           <img src={intermedlogo} alt="asd" className="w-56" />
         </div>
+        
+          
+        
+        <button onClick={handlePrint}>Descargar AHORA</button>
         <div>
           <h3 className="font-semibold">HISTORIA CLÍNICA PRE HOSPITALARIA</h3>
         </div>
@@ -3054,6 +3074,7 @@ function App() {
           <p>Médico Receptor</p>
         </div>{" "}
       </section>
+      </div>
     </>
   );
 }
