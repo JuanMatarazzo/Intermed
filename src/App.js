@@ -2,8 +2,57 @@ import "./App.css";
 import intermedlogo from "./logos/intermedLogo2.png";
 import logogrupoie from "./logos/gropoielogo.jpeg";
 import SignatureCanvas from "react-signature-canvas";
+import { useRef, useState, useEffect } from "react";
 
 function App() {
+  //Signature
+
+  const signatureRef = useRef({});
+
+  const [imageData, setImageData] = useState({
+    firmaPaciente: "",
+    firmaTestigo: "",
+    medicoGrupoIe: "",
+    medicoReceptor: "",
+  });
+
+  const [error, setError] = useState(false);
+
+  const saveSignaturePaciente = (signature) => {
+    setImageData({
+      ...imageData,
+      firmaPaciente: signature,
+    });
+  };
+
+  const saveSignatureTestigo = (signature) => {
+    setImageData({
+      ...imageData,
+      firmaTestigo: signature,
+    });
+  };
+
+  const saveSignatureGrupoIe = (signature) => {
+    setImageData({
+      ...imageData,
+      medicoGrupoIe: signature,
+    });
+  };
+  const saveSignatureReceptor = (signature) => {
+    setImageData({
+      ...imageData,
+      medicoReceptor: signature,
+    });
+  };
+
+  useEffect(() => {
+    console.log(imageData);
+  }, [imageData]);
+
+  console.log(imageData);
+
+  //Signature ending
+
   return (
     <>
       <nav className="flex h-24 justify-around items-center border-b border-black">
@@ -960,6 +1009,11 @@ function App() {
             penColor="green"
             canvasProps={{ width: 350, height: 250, className: "sigCanvas" }}
             backgroundColor="rgb(138,140,143)"
+            onEnd={() =>
+              saveSignaturePaciente(
+                signatureRef.current.getTrimmedCanvas().toDataURL("image/jpg")
+              )
+            }
           />
           <p>Firma Paciente</p>
         </div>
@@ -968,6 +1022,11 @@ function App() {
             penColor="green"
             canvasProps={{ width: 350, height: 250, className: "sigCanvas" }}
             backgroundColor="rgb(138,140,143)"
+            onEnd={() =>
+              saveSignatureTestigo(
+                signatureRef.current.getTrimmedCanvas().toDataURL("image/jpg")
+              )
+            }
           />
           <p>Firma Testigo</p>
         </div>{" "}
@@ -978,6 +1037,12 @@ function App() {
             penColor="green"
             canvasProps={{ width: 350, height: 250, className: "sigCanvas" }}
             backgroundColor="rgb(138,140,143)"
+            ref={signatureRef}
+            onEnd={() =>
+              saveSignatureGrupoIe(
+                signatureRef.current.getTrimmedCanvas().toDataURL("image/jpg")
+              )
+            }
           />
           <p>Médico GrupoIE</p>
         </div>
@@ -986,6 +1051,11 @@ function App() {
             penColor="green"
             canvasProps={{ width: 350, height: 250, className: "sigCanvas" }}
             backgroundColor="rgb(138,140,143)"
+            onEnd={() =>
+              saveSignatureReceptor(
+                signatureRef.current.getTrimmedCanvas().toDataURL("image/jpg")
+              )
+            }
           />
           <p>Médico Receptor</p>
         </div>{" "}
