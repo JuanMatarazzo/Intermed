@@ -172,11 +172,7 @@ function App() {
       <nav className="flex h-24 justify-around items-center border-b border-black">
         <div>
           <img src={intermedlogo} alt="asd" className="w-56" />
-        </div>
-        
-          
-        
-        <button onClick={handlePrint}>Descargar AHORA</button>
+        </div>       
         <div>
           <h3 className="font-semibold">HISTORIA CLÍNICA PRE HOSPITALARIA</h3>
         </div>
@@ -3073,6 +3069,302 @@ function App() {
           />
           <p>Médico Receptor</p>
         </div>{" "}
+      </section>
+
+      {/* Medicación utilizada */}
+
+      <section className="my-10 flex flex-col justify-center items-center gap-4">
+        <h3>Medicación utilizada</h3>
+        <div className="w-full flex">
+          <div className="w-1/2 flex flex-col justify-center items-center">
+            <div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div>
+            <div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div>
+            <div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div>
+            <div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div>
+            <div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div>
+            <div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div>
+            <div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div>
+            <div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div>
+            <div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div>
+            <div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div>
+            <div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div>
+            <div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div>
+            <div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div>
+            <div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div>
+            <div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div>
+            <div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div>
+            <div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div>
+            <div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div>
+            <div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div>
+            <div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div>
+            <div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div>
+            <div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div>
+            <div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div>
+            <div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div>
+            <div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div>
+          </div>
+          <div className="w-1/2 flex flex-col justify-center items-center">
+          <div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div><div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div><div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div><div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div><div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div><div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div><div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div><div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div><div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div><div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div><div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div><div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div><div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div><div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div><div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div><div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div><div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div><div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div><div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div><div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div><div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div><div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div><div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div><div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div><div className="flex gap-1">
+              <p className="w-full">Abbocath N°14</p>
+              <input
+                className="border-b w-full border-black"
+              ></input>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Button */}
+
+      <section className="w-full flex justify-center items-center my-10">
+        <div className="1/4">
+        <button onClick={handlePrint} class="py-2 px-4  bg-[#F37435]  text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">Descargar AHORA</button>
+        </div>
       </section>
       </div>
     </>
