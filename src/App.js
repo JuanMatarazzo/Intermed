@@ -1450,7 +1450,7 @@ function App() {
         <div className="w-full flex flex-col justify-center items-center">
           <div className="flex justify-center items-center">
             <div className="flex justify-center items-center gap-2 relative top-4">
-              <p >Deformación</p>
+              <p className="relative right-8">Deformación</p>
               <div className="flex flex-col gap-3 justify-cennter items-center">
                 <p className="-rotate-90 w-[21px] font-semibold relative bottom-4">Cara</p>
                 <input
@@ -1581,13 +1581,132 @@ function App() {
           </div>
           <div className="flex justify-center items-center">
             <div className="flex justify-center items-center">
-              <p className="border-y border-black h-10 flex justify-center items-center pr-3 font-normal">
+              <p className="border-y border-black h-10 flex justify-center items-center pr-3 font-normal relative right-6">
                 Contus/Hematoma
               </p>
               <div className="flex flex-col gap-3 justify-cennter items-center">
                 <input
                   type="checkbox"
-                  className="w-10 h-10"
+                  className="w-10 h-10 relative right-[22px]"
+                  // name="wwww"
+                  // onChange="oooo"
+                ></input>
+              </div>
+            </div>
+            <div className="flex flex-col gap-5 justify-center items-center  ">
+              <input
+                type="checkbox"
+                className="w-10 h-10 relative right-[22px]"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3 ">
+              <input
+                type="checkbox"
+                className="w-10 h-10 relative right-[22px]"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10 relative right-[22px]"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3 justify-center items-center">
+              <input
+                type="checkbox"
+                className="w-10 h-10 relative right-[22px]"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3 ">
+              <input
+                type="checkbox"
+                className="w-10 h-10 relative right-[22px]"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10 relative right-[22px]"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10 relative right-[22px]"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3 ">
+              <input
+                type="checkbox"
+                className="w-10 h-10 relative right-[22px]"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10 relative right-[22px]"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10 relative right-[22px]"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10 relative right-[22px]"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10 relative right-[22px]"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10 relative right-[22px]"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+          </div>
+          <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center">
+              <p className="border-y w-[146.2px] border-black h-10 flex justify-center items-center pr-3 relative right-6">
+                Perd. Movilidad
+              </p>
+              <div className="flex flex-col gap-3 justify-cennter items-center">
+                <input
+                  type="checkbox"
+                  className="w-10 h-10 relative right-[22px]"
                   // name="wwww"
                   // onChange="oooo"
                 ></input>
@@ -1596,7 +1715,7 @@ function App() {
             <div className="flex flex-col gap-5 justify-center items-center ">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -1604,7 +1723,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -1612,7 +1731,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -1620,7 +1739,7 @@ function App() {
             <div className="flex flex-col gap-3 bg-red-200 justify-center items-center">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -1628,7 +1747,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -1636,7 +1755,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -1644,7 +1763,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -1652,7 +1771,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -1660,7 +1779,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -1668,7 +1787,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -1676,7 +1795,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -1684,7 +1803,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -1692,7 +1811,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -1700,141 +1819,22 @@ function App() {
           </div>
           <div className="flex justify-center items-center">
             <div className="flex justify-center items-center">
-              <p className="border-y border-black h-10 flex justify-center items-center pr-3">
-                Perd. Movilidad
-              </p>
-              <div className="flex flex-col gap-3 justify-cennter items-center">
-                <input
-                  type="checkbox"
-                  className="w-10 h-10"
-                  // name="wwww"
-                  // onChange="oooo"
-                ></input>
-              </div>
-            </div>
-            <div className="flex flex-col gap-5 justify-center items-center bg-red-200">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                // name="wwww"
-                // onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                // name="wwww"
-                // onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                // name="wwww"
-                // onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3 bg-red-200 justify-center items-center">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                // name="wwww"
-                // onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                // name="wwww"
-                // onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                // name="wwww"
-                // onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                // name="wwww"
-                // onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                // name="wwww"
-                // onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                // name="wwww"
-                // onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                // name="wwww"
-                // onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                // name="wwww"
-                // onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                // name="wwww"
-                // onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                // name="wwww"
-                // onChange="oooo"
-              ></input>
-            </div>
-          </div>
-          <div className="flex justify-center items-center">
-            <div className="flex justify-center items-center">
-              <p className="border-y border-black h-10 flex justify-center items-center pr-3">
+              <p className="border-y border-black h-10 flex justify-center items-center pr-3 w-[146.2px] relative right-6">
                 Perd. Sensibilidad
               </p>
               <div className="flex flex-col gap-3 justify-cennter items-center">
                 <input
                   type="checkbox"
-                  className="w-10 h-10"
+                  className="w-10 h-10 relative right-[22px]"
                   // name="wwww"
                   // onChange="oooo"
                 ></input>
               </div>
             </div>
-            <div className="flex flex-col gap-5 justify-center items-center bg-red-200">
+            <div className="flex flex-col gap-5 justify-center items-center ">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -1842,7 +1842,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -1850,7 +1850,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -1858,7 +1858,7 @@ function App() {
             <div className="flex flex-col gap-3 bg-red-200 justify-center items-center">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -1866,7 +1866,15 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3 ">
+              <input
+                type="checkbox"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -1874,7 +1882,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -1882,7 +1890,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -1890,7 +1898,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -1898,7 +1906,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -1906,7 +1914,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -1914,7 +1922,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -1922,15 +1930,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
-                // name="wwww"
-                // onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -1938,22 +1938,22 @@ function App() {
           </div>
           <div className="flex justify-center items-center">
             <div className="flex justify-center items-center">
-              <p className="border-y border-black h-10 flex justify-center items-center pr-3">
+              <p className="border-y border-black h-10 flex justify-center items-center pr-3 w-[146.2px] relative right-6">
                 Lacerac./Abración
               </p>
               <div className="flex flex-col gap-3 justify-cennter items-center">
                 <input
                   type="checkbox"
-                  className="w-10 h-10"
+                  className="w-10 h-10 relative right-[22px]"
                   // name="wwww"
                   // onChange="oooo"
                 ></input>
               </div>
             </div>
-            <div className="flex flex-col gap-5 justify-center items-center bg-red-200">
+            <div className="flex flex-col gap-5 justify-center items-center ">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px] "
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -1961,7 +1961,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -1969,7 +1969,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -1977,7 +1977,7 @@ function App() {
             <div className="flex flex-col gap-3 bg-red-200 justify-center items-center">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -1985,7 +1985,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -1993,7 +1993,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2001,7 +2001,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2009,7 +2009,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2017,7 +2017,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2025,7 +2025,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2033,7 +2033,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2041,7 +2041,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2049,7 +2049,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2057,13 +2057,13 @@ function App() {
           </div>
           <div className="flex justify-center items-center">
             <div className="flex justify-center items-center">
-              <p className="border-y border-black h-10 flex justify-center items-center pr-3">
+              <p className="border-y border-black h-10 flex justify-center items-center pr-3 w-[146.2px] relative right-6">
                 Herida cort./puns.
               </p>
               <div className="flex flex-col gap-3 justify-cennter items-center">
                 <input
                   type="checkbox"
-                  className="w-10 h-10"
+                  className="w-10 h-10 relative right-[22px] "
                   // name="wwww"
                   // onChange="oooo"
                 ></input>
@@ -2072,7 +2072,7 @@ function App() {
             <div className="flex flex-col gap-5 justify-center items-center bg-red-200">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2080,7 +2080,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2088,7 +2088,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2096,7 +2096,7 @@ function App() {
             <div className="flex flex-col gap-3 bg-red-200 justify-center items-center">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2104,7 +2104,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2112,7 +2112,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2120,7 +2120,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2128,7 +2128,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2136,7 +2136,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2144,7 +2144,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2152,7 +2152,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2160,7 +2160,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2168,7 +2168,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2176,13 +2176,13 @@ function App() {
           </div>
           <div className="flex justify-center items-center">
             <div className="flex justify-center items-center">
-              <p className="border-y border-black h-10 flex justify-center items-center pr-3">
+              <p className="border-y border-black h-10 flex justify-center items-center pr-3 w-[146.2px] relative right-6">
                 Traum. Cerrado
               </p>
               <div className="flex flex-col gap-3 justify-cennter items-center">
                 <input
                   type="checkbox"
-                  className="w-10 h-10"
+                  className="w-10 h-10 relative right-[22px]"
                   // name="wwww"
                   // onChange="oooo"
                 ></input>
@@ -2191,7 +2191,7 @@ function App() {
             <div className="flex flex-col gap-5 justify-center items-center bg-red-200">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2199,7 +2199,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2207,7 +2207,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2215,7 +2215,7 @@ function App() {
             <div className="flex flex-col gap-3 bg-red-200 justify-center items-center">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2223,7 +2223,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2231,7 +2231,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2239,7 +2239,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2247,7 +2247,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2255,7 +2255,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2263,7 +2263,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2271,7 +2271,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2279,7 +2279,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2287,7 +2287,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2295,13 +2295,13 @@ function App() {
           </div>
           <div className="flex justify-center items-center">
             <div className="flex justify-center items-center">
-              <p className="border-y border-black h-10 flex justify-center items-center pr-3">
+              <p className="border-y border-black h-10 flex justify-center items-center pr-3 w-[146.2px] relative right-6">
                 Luxación/Esguince
               </p>
               <div className="flex flex-col gap-3 justify-cennter items-center">
                 <input
                   type="checkbox"
-                  className="w-10 h-10"
+                  className="w-10 h-10 relative right-[22px]"
                   // name="wwww"
                   // onChange="oooo"
                 ></input>
@@ -2310,7 +2310,7 @@ function App() {
             <div className="flex flex-col gap-5 justify-center items-center bg-red-200">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2318,7 +2318,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2326,7 +2326,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2334,7 +2334,7 @@ function App() {
             <div className="flex flex-col gap-3 bg-red-200 justify-center items-center">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2342,7 +2342,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2350,7 +2350,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2358,7 +2358,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2366,7 +2366,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2374,7 +2374,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2382,7 +2382,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2390,7 +2390,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2398,7 +2398,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2406,7 +2406,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2414,13 +2414,13 @@ function App() {
           </div>
           <div className="flex justify-center items-center">
             <div className="flex justify-center items-center">
-              <p className="border-y border-black h-10 flex justify-center items-center pr-3">
+              <p className="border-y border-black h-10 flex justify-center items-center pr-3 w-[146.2px] relative right-6">
                 Fractura
               </p>
               <div className="flex flex-col gap-3 justify-cennter items-center">
                 <input
                   type="checkbox"
-                  className="w-10 h-10"
+                  className="w-10 h-10 relative right-[22px]"
                   // name="wwww"
                   // onChange="oooo"
                 ></input>
@@ -2429,7 +2429,7 @@ function App() {
             <div className="flex flex-col gap-5 justify-center items-center bg-red-200">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2437,7 +2437,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2445,7 +2445,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2453,7 +2453,7 @@ function App() {
             <div className="flex flex-col gap-3 bg-red-200 justify-center items-center">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2461,7 +2461,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2469,7 +2469,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2477,7 +2477,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2485,7 +2485,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2493,7 +2493,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2501,7 +2501,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2509,7 +2509,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2517,7 +2517,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2525,7 +2525,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2533,13 +2533,13 @@ function App() {
           </div>
           <div className="flex justify-center items-center">
             <div className="flex justify-center items-center">
-              <p className="border-y border-black h-10 flex justify-center items-center pr-3">
+              <p className="border-y border-black h-10 flex justify-center items-center pr-3 w-[146.2px] relative right-6">
                 Amputación
               </p>
               <div className="flex flex-col gap-3 justify-cennter items-center">
                 <input
                   type="checkbox"
-                  className="w-10 h-10"
+                  className="w-10 h-10 relative right-[22px]"
                   // name="wwww"
                   // onChange="oooo"
                 ></input>
@@ -2548,7 +2548,7 @@ function App() {
             <div className="flex flex-col gap-5 justify-center items-center bg-red-200">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2556,7 +2556,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2564,7 +2564,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2572,7 +2572,7 @@ function App() {
             <div className="flex flex-col gap-3 bg-red-200 justify-center items-center">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2580,7 +2580,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2588,7 +2588,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2596,7 +2596,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2604,7 +2604,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2612,7 +2612,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2620,7 +2620,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2628,7 +2628,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2636,7 +2636,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2644,7 +2644,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2652,13 +2652,13 @@ function App() {
           </div>
           <div className="flex justify-center items-center">
             <div className="flex justify-center items-center">
-              <p className="border-y border-black h-10 flex justify-center items-center pr-3">
+              <p className="border-y border-black h-10 flex justify-center items-center pr-3 w-[146.2px] relative right-6">
                 Hemorragia
               </p>
               <div className="flex flex-col gap-3 justify-cennter items-center">
                 <input
                   type="checkbox"
-                  className="w-10 h-10"
+                  className="w-10 h-10 relative right-[22px]"
                   // name="wwww"
                   // onChange="oooo"
                 ></input>
@@ -2667,7 +2667,7 @@ function App() {
             <div className="flex flex-col gap-5 justify-center items-center bg-red-200">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2675,7 +2675,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2683,7 +2683,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2691,7 +2691,7 @@ function App() {
             <div className="flex flex-col gap-3 bg-red-200 justify-center items-center">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2699,7 +2699,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2707,7 +2707,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2715,7 +2715,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2723,7 +2723,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2731,7 +2731,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2739,7 +2739,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2747,7 +2747,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2755,7 +2755,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2763,7 +2763,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2771,13 +2771,13 @@ function App() {
           </div>
           <div className="flex justify-center items-center">
             <div className="flex justify-center items-center">
-              <p className="border-y border-black h-10 flex justify-center items-center pr-3">
+              <p className="border-y border-black h-10 flex justify-center items-center pr-3 w-[146.2px] relative right-6">
                 Empalamiento
               </p>
               <div className="flex flex-col gap-3 justify-cennter items-center">
                 <input
                   type="checkbox"
-                  className="w-10 h-10"
+                  className="w-10 h-10 relative right-[22px]"
                   // name="wwww"
                   // onChange="oooo"
                 ></input>
@@ -2786,7 +2786,7 @@ function App() {
             <div className="flex flex-col gap-5 justify-center items-center bg-red-200">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2794,7 +2794,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2802,7 +2802,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2810,7 +2810,7 @@ function App() {
             <div className="flex flex-col gap-3 bg-red-200 justify-center items-center">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2818,7 +2818,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2826,7 +2826,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2834,7 +2834,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2842,7 +2842,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2850,7 +2850,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2858,7 +2858,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2866,7 +2866,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2874,7 +2874,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
@@ -2882,7 +2882,7 @@ function App() {
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
-                className="w-10 h-10"
+                className="w-10 h-10 relative right-[22px]"
                 // name="wwww"
                 // onChange="oooo"
               ></input>
