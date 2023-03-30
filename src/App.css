@@ -33,14 +33,21 @@
   position: absolute;
   /* text-align: center; */
   top: 50px; 
-  left: 35px
+  left: 35px;
+  
+}
+
+.textArea::placeholder{
+  position: absolute;
+  left: 285px;
+  top: 100px;
 }
 
 .myInputDos::placeholder{
   position: absolute;
   /* text-align: center; */
   top: 42px; 
-  left: 90px
+  left: 90px;
 }
 @keyframes App-logo-spin {
   from {
@@ -50,3 +57,5 @@
     transform: rotate(360deg);
   }
 }
+
+

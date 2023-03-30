@@ -413,7 +413,7 @@ function App() {
       {/* Section 3 Antecedentes */}
       <section className="w-full flex mt-6 ml-4 border-t border-t-black">
         <div className="w-3/4 flex flex-col gap-3">
-          <p className="text-xl font-semibold ml-5">Antecedentes Patologicos</p>
+          <p className="text-xl font-semibold ml-5  ">Antecedentes Patologicos</p>
           <div className="w-full flex gap-3">
             <div className="1/5">
               <div className="flex gap-1">
@@ -657,14 +657,14 @@ function App() {
           </div>
         </div>
         <div className="w-1/4">
-          <p className="font-bold mt-1">Medicación Actual</p>
+          <p className="font-bold mt-1 relative left-6 top-1 ">Medicación Actual</p>
           <textarea
             // id="myInput"
             name="medicacion_actual"
             value={infoTextArea.medicacion_actual}
             onChange={handleTextArea}
             placeholder="Escriba aquí"
-            className="myInput border border-black h-32 mt-2"
+            className="myInput border border-black h-32 mt-2 shadow-lg shadow-zinc-300 relative left-4 top-2 rounded-lg" 
           ></textarea>
         </div>
       </section>
@@ -673,10 +673,10 @@ function App() {
       <form>
         <section className="w-full flex mt-6 ml-4 border-t border-t-black">
           <div className="w-1/2 flex flex-col gap-3 ">
-            <p className="text-xl font-semibold ml-5">Signos vitales</p>
+            <p className="text-xl font-semibold ml-5  relative top-2">Signos vitales</p>
             <div className="w-full flex justify-center items-center">
               <div className="flex flex-col justify-center items-center">
-                <p>Hora</p>
+                <p className="font-medium">Hora</p>
                 <div className="flex flex-col">
                   <input type="checkbox" className="h-9 w-9"></input>
                   <input type="checkbox" className="h-9 w-9"></input>
@@ -685,7 +685,7 @@ function App() {
                 </div>
               </div>
               <div className="flex flex-col justify-center items-center">
-                <p>Tas</p>
+                <p className="font-medium">Tas</p>
                 <div className="flex flex-col">
                   <input type="checkbox" className="h-9 w-9"></input>
                   <input type="checkbox" className="h-9 w-9"></input>
@@ -694,7 +694,7 @@ function App() {
                 </div>
               </div>
               <div className="flex flex-col justify-center items-center">
-                <p>Tad</p>
+                <p className="font-medium">Tad</p>
                 <div className="flex flex-col">
                   <input type="checkbox" className="h-9 w-9"></input>
                   <input type="checkbox" className="h-9 w-9"></input>
@@ -703,7 +703,7 @@ function App() {
                 </div>
               </div>
               <div className="flex flex-col justify-center items-center">
-                <p>Fc</p>
+                <p className="font-medium">Fc</p>
                 <div className="flex flex-col">
                   <input type="checkbox" className="h-9 w-9"></input>
                   <input type="checkbox" className="h-9 w-9"></input>
@@ -712,7 +712,7 @@ function App() {
                 </div>
               </div>
               <div className="flex flex-col justify-center items-center">
-                <p>Fr</p>
+                <p className="font-medium">Fr</p>
                 <div className="flex flex-col">
                   <input type="checkbox" className="h-9 w-9"></input>
                   <input type="checkbox" className="h-9 w-9"></input>
@@ -721,7 +721,7 @@ function App() {
                 </div>
               </div>
               <div className="flex flex-col justify-center items-center">
-                <p>Temp</p>
+                <p className="font-medium">Temp</p>
                 <div className="flex flex-col">
                   <input type="checkbox" className="h-9 w-9"></input>
                   <input type="checkbox" className="h-9 w-9"></input>
@@ -730,7 +730,7 @@ function App() {
                 </div>
               </div>
               <div className="flex flex-col justify-center items-center">
-                <p>So2</p>
+                <p className="font-medium relative left-[3px]">So2</p>
                 <div className="flex flex-col">
                   <input type="checkbox" className="h-9 w-9"></input>
                   <input type="checkbox" className="h-9 w-9"></input>
@@ -739,7 +739,7 @@ function App() {
                 </div>
               </div>
               <div className="flex flex-col justify-center items-center">
-                <p>Glic</p>
+                <p className="font-medium  relative left-[3px]">Glic</p>
                 <div className="flex flex-col">
                   <input type="checkbox" className="h-9 w-9"></input>
                   <input type="checkbox" className="h-9 w-9"></input>
@@ -750,36 +750,36 @@ function App() {
             </div>
           </div>
           <div className="w-1/2">
-            <div className="flex gap-2 1/3 flex-wrap mt-2 justify-center items-center bg-red-200">
-              <label className="text-xl font-semibold">Aspecto</label>
+            <div className="flex gap-2 1/3 flex-wrap mt-2 justify-center items-center">
+              <label className="text-xl font-semibold relative top-[2px]">Aspecto</label>
 
-              <div className="flex gap-2 ">
-                <input type="checkbox" name="aspecto" value="bueno" />
-                <p className="font-semibold">Bueno</p>
+              <div className="flex gap-2 relative top-1">
+                <input type="checkbox" name="aspecto" value="bueno" className=" " />
+                <p className="font-semibold relative right-1 bottom-[1px]">Bueno</p>
               </div>
 
-              <div className="flex gap-2">
-                <input type="checkbox" name="aspecto" value="malo" />
-                <p className="font-semibold">Malo</p>
+              <div className="flex gap-2  relative top-1">
+                <input type="checkbox" name="aspecto" value="malo" className="relative" />
+                <p className="font-semibold relative right-1 bottom-[1px]">Malo</p>
               </div>
 
-              <div className="flex gap-2">
-                <input type="checkbox" name="aspecto" value="regular" />
-                <p className="font-semibold">Regular</p>
+              <div className="flex gap-2  relative top-1">
+                <input type="checkbox" name="aspecto" value="regular" className="relative" />
+                <p className="font-semibold  relative right-1 bottom-[1px]">Regular</p>
               </div>
             </div>
 
-            <p className="font-medium">Sensorio</p>
+            <p className="font-bold w-16  relative left-[165px] top-3">Sensorio</p>
             <textarea
               // id="myInput"
               placeholder="Escriba aquí"
-              className="myInputDos border border-black h-28 w-72"
+              className="myInputDos border border-black h-28 w-72  relative left-16 top-5 shadow-lg shadow-zinc-300 rounded-lg"
             ></textarea>
           </div>
         </section>
       </form>
 
-      {/* Section Glasgow */}
+      {/* Section Glasgow 5ta*/}
       <section className="w-full flex mt-6 ml-4 border-t border-t-black flex-col items-center gap-3">
         <div>
           <h3 className="text-xl font-semibold">Glasgow</h3>
@@ -798,7 +798,7 @@ function App() {
             </div>
             <div className="flex gap-1">
               <input type="checkbox"></input>
-              <p className="font-semibold">Inapropiada</p>
+              <p className="">Inapropiada</p>
             </div>
             <div className="flex gap-1">
               <input type="checkbox"></input>
@@ -860,7 +860,7 @@ function App() {
         </div>
       </section>
 
-      {/* Section Examen Fisico */}
+      {/* Section Examen Fisico 6ta*/}
       <section className="w-full flex mt-6 ml-4 border-t border-t-black flex-col items-center gap-3">
         <div className="w-full flex justify-center items-center">
           <h1 className="font-bold">Examen Físico</h1>
@@ -1135,7 +1135,7 @@ function App() {
             </div>
 
             <div className="w-1/5">
-              <div className="font-semibold mt-4">
+              <div className="mt-4">
                 <p className="font-semibold">Respiratorio</p>
                 <div className="flex gap-1">
                   <input type="checkbox"></input>
@@ -1281,12 +1281,12 @@ function App() {
         </div>
       </section>
 
-      {/* Section Mecanismo de Lesion */}
+      {/* Section Mecanismo de Lesion 7ma*/}
       <section className="w-full flex mt-6 ml-4 border-t border-t-black flex-col items-center gap-3">
         <div className="w-full flex">
           <div className="w-full flex flex-col gap-3">
             <div className="w-full flex justify-center items-center">
-              <h1 className="font-semibold">Mecanismo De Lesión</h1>
+              <h1 className="font-bold">Mecanismo De Lesión</h1>
             </div>
             <div className="w-full flex">
               <div className="w-1/4">
@@ -1342,7 +1342,7 @@ function App() {
         </div>
       </section>
 
-      {/* Section Paro Cardiorrespiratorio */}
+      {/* Section Paro Cardiorrespiratorio 8va*/}
       <section className="w-full flex mt-6 ml-4 border-t border-t-black flex-col items-center gap-3">
         <div className="w-full flex">
           <div className="w-full flex flex-col gap-3">
@@ -1352,7 +1352,7 @@ function App() {
             <div className="w-full flex">
               <div className="w-1/4">
                 <div>
-                  <p>Modo Present.</p>
+                  <p className="font-medium">Modo Present.</p>
                 </div>
                 <div className="flex gap-1">
                   <input type="checkbox"></input>
@@ -1371,9 +1371,10 @@ function App() {
                   <p>Asistolia</p>
                 </div>
               </div>
+
               <div className="w-1/4">
                 <div>
-                  <p>Conducta</p>
+                  <p className="font-medium">Conducta</p>
                 </div>
                 <div className="flex gap-1">
                   <input type="checkbox"></input>
@@ -1388,9 +1389,10 @@ function App() {
                   <p>{`No RCP (cause)`}</p>
                 </div>
               </div>
+             
               <div className="w-1/4">
                 <div>
-                  <p>Post-Paro</p>
+                  <p className="font-medium">Post-Paro</p>
                 </div>
                 <div className="flex gap-1">
                   <input type="checkbox"></input>
@@ -1411,7 +1413,7 @@ function App() {
               </div>
               <div className="w-1/4">
                 <div>
-                  <p className="font-semibold">Duración</p>
+                  <p className="font-medium">Duración</p>
                 </div>
                 <div className="flex gap-1">
                   <input type="checkbox"></input>
@@ -1434,11 +1436,11 @@ function App() {
         </div>
         <div className="w-1/2 flex flex-col items-center">
           <input className="border-b w-full border-black"></input>
-          <label>Diagnóstico Presuntivo</label>
+          <label className="font-bold">Diagnóstico Presuntivo</label>
         </div>
         <div className="w-1/2 flex flex-col items-center">
           <input className="border-b w-full border-black"></input>
-          <label>Lugar de internación / Sala</label>
+          <label className="font-bold">Lugar de internación / Sala</label>
         </div>
       </section>
 
@@ -1447,137 +1449,1446 @@ function App() {
       <section className="w-full flex mt-6 pt-12 ml-4 border-t border-t-black items-center justify-center gap-3">
         <div className="w-full flex flex-col justify-center items-center">
           <div className="flex justify-center items-center">
-            <div className="flex justify-center items-center gap-2">
-              <p>Deformación</p>
+            <div className="flex justify-center items-center gap-2 relative top-4">
+              <p >Deformación</p>
               <div className="flex flex-col gap-3 justify-cennter items-center">
-                <p className="-rotate-90 w-[21px]">Cara</p>
+                <p className="-rotate-90 w-[21px] font-semibold relative bottom-4">Cara</p>
                 <input
                   type="checkbox"
-                  className="w-10 h-10"
-                  name="wwww"
-                  onChange="oooo"
+                  className="w-10 h-10 relative left-0.5 bottom-4"
+                  // name="wwww"
+                  // onChange="oooo"
                 ></input>
               </div>
             </div>
-            <div className="flex flex-col gap-3 justify-center items-center">
-              <p className="-rotate-90 w-[21px]">Cabeza</p>
+            <div className="flex flex-col gap-3 justify-center items-center ">
+              <p className="-rotate-90 w-[21px] font-semibold">Cabeza</p>
               <input
                 type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
+                className="w-10 h-10 relative left-0.5"
+                // name="wwww"
+                // onChange="oooo"
               ></input>
             </div>
             <div className="flex flex-col gap-3 justify-center items-center">
-              <p className="-rotate-90 w-[21px] ">Cuello</p>
+              <p className="-rotate-90 w-[21px] font-semibold">Cuello</p>
               <input
                 type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
+                className="w-10 h-10 relative left-0.5"
+                // name="wwww"
+                // onChange="oooo"
               ></input>
             </div>
             <div className="flex flex-col gap-3 justify-center items-center">
-              <p className="-rotate-90 w-[21px] ">Torax</p>
+              <p className="-rotate-90 w-[21px] font-semibold">Torax</p>
               <input
                 type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
+                className="w-10 h-10 relative left-0.5"
+                // name="wwww"
+                // onChange="oooo"
               ></input>
             </div>
             <div className="flex flex-col gap-3 justify-center items-center">
-              <p className="-rotate-90 w-[21px] ">Abdom.</p>
+              <p className="-rotate-90 w-[21px] font-semibold">Abdom.</p>
               <input
                 type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
+                className="w-10 h-10 relative left-0.5"
+                // name="wwww"
+                // onChange="oooo"
               ></input>
             </div>
             <div className="flex flex-col gap-3 justify-center items-center">
-              <p className="-rotate-90 w-[21px] ">Torso</p>
+              <p className="-rotate-90 w-[21px] font-semibold">Torso</p>
               <input
                 type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
+                className="w-10 h-10 relative left-0.5"
+                // name="wwww"
+                // onChange="oooo"
               ></input>
             </div>
             <div className="flex flex-col gap-3 justify-center items-center">
-              <p className="-rotate-90 w-[21px] ">Pelvis</p>
+              <p className="-rotate-90 w-[21px] font-semibold">Pelvis</p>
               <input
                 type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
+                className="w-10 h-10 relative left-0.5"
+                // name="wwww"
+                // onChange="oooo"
               ></input>
             </div>
             <div className="flex flex-col gap-3 justify-center items-center">
-              <p className="-rotate-90 w-[21px] ">Perine.</p>
+              <p className="-rotate-90 w-[21px] font-semibold">Perine.</p>
               <input
                 type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
+                className="w-10 h-10 relative left-0.5"
+                // name="wwww"
+                // onChange="oooo"
               ></input>
             </div>
             <div className="flex flex-col gap-3 justify-center items-center">
-              <p className="-rotate-90 w-[21px] ">Genit</p>
+              <p className="-rotate-90 w-[21px] font-semibold">Genit</p>
               <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
+                type="checkbox" 
+                className="w-10 h-10 relative left-0.5"
+                // name="wwww"
+                // onChange="oooo"
               ></input>
             </div>
             <div className="flex flex-col gap-3 justify-center items-center">
-              <p className="-rotate-90 w-[21px] ">Maquis.</p>
+              <p className="-rotate-90 w-[21px] font-semibold">Maquis.</p>
               <input
                 type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
+                className="w-10 h-10 relative left-0.5"
+                // name="wwww"
+                // onChange="oooo"
               ></input>
             </div>
             <div className="flex flex-col gap-3 justify-center items-center">
-              <p className="-rotate-90 w-[21px] ">MSD</p>
+              <p className="-rotate-90 w-[21px] font-semibold">MSD</p>
               <input
                 type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
+                className="w-10 h-10 relative left-0.5"
+                // name="wwww"
+                // onChange="oooo"
               ></input>
             </div>
             <div className="flex flex-col gap-3 justify-center items-center">
-              <p className="-rotate-90 w-[21px] ">MSI</p>
+              <p className="-rotate-90 w-[21px] font-semibold">MSI</p>
               <input
                 type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
+                className="w-10 h-10 relative left-0.5"
+                // name="wwww"
+                // onChange="oooo"
               ></input>
             </div>
             <div className="flex flex-col gap-3 justify-center items-center">
-              <p className="-rotate-90 w-[21px] ">MID</p>
+              <p className="-rotate-90 w-[21px] font-semibold">MID</p>
               <input
                 type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
+                className="w-10 h-10 relative left-0.5"
+                // name="wwww"
+                // onChange="oooo"
               ></input>
             </div>
             <div className="flex flex-col gap-3 justify-center items-center">
-              <p className="-rotate-90 w-[21px] ">MII</p>
+              <p className="-rotate-90 w-[21px] font-semibold">MII</p>
               <input
                 type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
+                className="w-10 h-10 relative left-0.5"
+                // name="wwww"
+                // onChange="oooo"
               ></input>
             </div>
           </div>
           <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center">
+              <p className="border-y border-black h-10 flex justify-center items-center pr-3 font-normal">
+                Contus/Hematoma
+              </p>
+              <div className="flex flex-col gap-3 justify-cennter items-center">
+                <input
+                  type="checkbox"
+                  className="w-10 h-10"
+                  // name="wwww"
+                  // onChange="oooo"
+                ></input>
+              </div>
+            </div>
+            <div className="flex flex-col gap-5 justify-center items-center ">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3 bg-red-200 justify-center items-center">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+          </div>
+          <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center">
+              <p className="border-y border-black h-10 flex justify-center items-center pr-3">
+                Perd. Movilidad
+              </p>
+              <div className="flex flex-col gap-3 justify-cennter items-center">
+                <input
+                  type="checkbox"
+                  className="w-10 h-10"
+                  // name="wwww"
+                  // onChange="oooo"
+                ></input>
+              </div>
+            </div>
+            <div className="flex flex-col gap-5 justify-center items-center bg-red-200">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3 bg-red-200 justify-center items-center">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+          </div>
+          <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center">
+              <p className="border-y border-black h-10 flex justify-center items-center pr-3">
+                Perd. Sensibilidad
+              </p>
+              <div className="flex flex-col gap-3 justify-cennter items-center">
+                <input
+                  type="checkbox"
+                  className="w-10 h-10"
+                  // name="wwww"
+                  // onChange="oooo"
+                ></input>
+              </div>
+            </div>
+            <div className="flex flex-col gap-5 justify-center items-center bg-red-200">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3 bg-red-200 justify-center items-center">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+          </div>
+          <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center">
+              <p className="border-y border-black h-10 flex justify-center items-center pr-3">
+                Lacerac./Abración
+              </p>
+              <div className="flex flex-col gap-3 justify-cennter items-center">
+                <input
+                  type="checkbox"
+                  className="w-10 h-10"
+                  // name="wwww"
+                  // onChange="oooo"
+                ></input>
+              </div>
+            </div>
+            <div className="flex flex-col gap-5 justify-center items-center bg-red-200">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3 bg-red-200 justify-center items-center">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+          </div>
+          <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center">
+              <p className="border-y border-black h-10 flex justify-center items-center pr-3">
+                Herida cort./puns.
+              </p>
+              <div className="flex flex-col gap-3 justify-cennter items-center">
+                <input
+                  type="checkbox"
+                  className="w-10 h-10"
+                  // name="wwww"
+                  // onChange="oooo"
+                ></input>
+              </div>
+            </div>
+            <div className="flex flex-col gap-5 justify-center items-center bg-red-200">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3 bg-red-200 justify-center items-center">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+          </div>
+          <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center">
+              <p className="border-y border-black h-10 flex justify-center items-center pr-3">
+                Traum. Cerrado
+              </p>
+              <div className="flex flex-col gap-3 justify-cennter items-center">
+                <input
+                  type="checkbox"
+                  className="w-10 h-10"
+                  // name="wwww"
+                  // onChange="oooo"
+                ></input>
+              </div>
+            </div>
+            <div className="flex flex-col gap-5 justify-center items-center bg-red-200">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3 bg-red-200 justify-center items-center">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+          </div>
+          <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center">
+              <p className="border-y border-black h-10 flex justify-center items-center pr-3">
+                Luxación/Esguince
+              </p>
+              <div className="flex flex-col gap-3 justify-cennter items-center">
+                <input
+                  type="checkbox"
+                  className="w-10 h-10"
+                  // name="wwww"
+                  // onChange="oooo"
+                ></input>
+              </div>
+            </div>
+            <div className="flex flex-col gap-5 justify-center items-center bg-red-200">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3 bg-red-200 justify-center items-center">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+          </div>
+          <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center">
+              <p className="border-y border-black h-10 flex justify-center items-center pr-3">
+                Fractura
+              </p>
+              <div className="flex flex-col gap-3 justify-cennter items-center">
+                <input
+                  type="checkbox"
+                  className="w-10 h-10"
+                  // name="wwww"
+                  // onChange="oooo"
+                ></input>
+              </div>
+            </div>
+            <div className="flex flex-col gap-5 justify-center items-center bg-red-200">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3 bg-red-200 justify-center items-center">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+          </div>
+          <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center">
+              <p className="border-y border-black h-10 flex justify-center items-center pr-3">
+                Amputación
+              </p>
+              <div className="flex flex-col gap-3 justify-cennter items-center">
+                <input
+                  type="checkbox"
+                  className="w-10 h-10"
+                  // name="wwww"
+                  // onChange="oooo"
+                ></input>
+              </div>
+            </div>
+            <div className="flex flex-col gap-5 justify-center items-center bg-red-200">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3 bg-red-200 justify-center items-center">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+          </div>
+          <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center">
+              <p className="border-y border-black h-10 flex justify-center items-center pr-3">
+                Hemorragia
+              </p>
+              <div className="flex flex-col gap-3 justify-cennter items-center">
+                <input
+                  type="checkbox"
+                  className="w-10 h-10"
+                  // name="wwww"
+                  // onChange="oooo"
+                ></input>
+              </div>
+            </div>
+            <div className="flex flex-col gap-5 justify-center items-center bg-red-200">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3 bg-red-200 justify-center items-center">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+          </div>
+          <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center">
+              <p className="border-y border-black h-10 flex justify-center items-center pr-3">
+                Empalamiento
+              </p>
+              <div className="flex flex-col gap-3 justify-cennter items-center">
+                <input
+                  type="checkbox"
+                  className="w-10 h-10"
+                  // name="wwww"
+                  // onChange="oooo"
+                ></input>
+              </div>
+            </div>
+            <div className="flex flex-col gap-5 justify-center items-center bg-red-200">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3 bg-red-200 justify-center items-center">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+            <div className="flex flex-col gap-3">
+              <input
+                type="checkbox"
+                className="w-10 h-10"
+                // name="wwww"
+                // onChange="oooo"
+              ></input>
+            </div>
+          </div>
+          {/* <div className="flex justify-center items-center">
             <div className="flex justify-center items-center">
               <p className="border-y border-black h-10 flex justify-center items-center pr-3">
                 Deformación
@@ -1586,8 +2897,8 @@ function App() {
                 <input
                   type="checkbox"
                   className="w-10 h-10"
-                  name="wwww"
-                  onChange="oooo"
+                  // name="wwww"
+                  // onChange="oooo"
                 ></input>
               </div>
             </div>
@@ -1595,1422 +2906,113 @@ function App() {
               <input
                 type="checkbox"
                 className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
+                // name="wwww"
+                // onChange="oooo"
               ></input>
             </div>
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
                 className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
+                // name="wwww"
+                // onChange="oooo"
               ></input>
             </div>
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
                 className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3 bg-red-200 justify-center items-center">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-          </div>
-          <div className="flex justify-center items-center">
-            <div className="flex justify-center items-center">
-              <p className="border-y border-black h-10 flex justify-center items-center pr-3">
-                Deformación
-              </p>
-              <div className="flex flex-col gap-3 justify-cennter items-center">
-                <input
-                  type="checkbox"
-                  className="w-10 h-10"
-                  name="wwww"
-                  onChange="oooo"
-                ></input>
-              </div>
-            </div>
-            <div className="flex flex-col gap-5 justify-center items-center bg-red-200">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
+                // name="wwww"
+                // onChange="oooo"
               ></input>
             </div>
             <div className="flex flex-col gap-3 bg-red-200 justify-center items-center">
               <input
                 type="checkbox"
                 className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
+                // name="wwww"
+                // onChange="oooo"
               ></input>
             </div>
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
                 className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
+                // name="wwww"
+                // onChange="oooo"
               ></input>
             </div>
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
                 className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
+                // name="wwww"
+                // onChange="oooo"
               ></input>
             </div>
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
                 className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
+                // name="wwww"
+                // onChange="oooo"
               ></input>
             </div>
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
                 className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
+                // name="wwww"
+                // onChange="oooo"
               ></input>
             </div>
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
                 className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
+                // name="wwww"
+                // onChange="oooo"
               ></input>
             </div>
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
                 className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
+                // name="wwww"
+                // onChange="oooo"
               ></input>
             </div>
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
                 className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
+                // name="wwww"
+                // onChange="oooo"
               ></input>
             </div>
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
                 className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
+                // name="wwww"
+                // onChange="oooo"
               ></input>
             </div>
             <div className="flex flex-col gap-3">
               <input
                 type="checkbox"
                 className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
+                // name="wwww"
+                // onChange="oooo"
               ></input>
             </div>
-          </div>
-          <div className="flex justify-center items-center">
-            <div className="flex justify-center items-center">
-              <p className="border-y border-black h-10 flex justify-center items-center pr-3">
-                Deformación
-              </p>
-              <div className="flex flex-col gap-3 justify-cennter items-center">
-                <input
-                  type="checkbox"
-                  className="w-10 h-10"
-                  name="wwww"
-                  onChange="oooo"
-                ></input>
-              </div>
-            </div>
-            <div className="flex flex-col gap-5 justify-center items-center bg-red-200">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3 bg-red-200 justify-center items-center">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-          </div>
-          <div className="flex justify-center items-center">
-            <div className="flex justify-center items-center">
-              <p className="border-y border-black h-10 flex justify-center items-center pr-3">
-                Deformación
-              </p>
-              <div className="flex flex-col gap-3 justify-cennter items-center">
-                <input
-                  type="checkbox"
-                  className="w-10 h-10"
-                  name="wwww"
-                  onChange="oooo"
-                ></input>
-              </div>
-            </div>
-            <div className="flex flex-col gap-5 justify-center items-center bg-red-200">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3 bg-red-200 justify-center items-center">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-          </div>
-          <div className="flex justify-center items-center">
-            <div className="flex justify-center items-center">
-              <p className="border-y border-black h-10 flex justify-center items-center pr-3">
-                Deformación
-              </p>
-              <div className="flex flex-col gap-3 justify-cennter items-center">
-                <input
-                  type="checkbox"
-                  className="w-10 h-10"
-                  name="wwww"
-                  onChange="oooo"
-                ></input>
-              </div>
-            </div>
-            <div className="flex flex-col gap-5 justify-center items-center bg-red-200">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3 bg-red-200 justify-center items-center">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-          </div>
-          <div className="flex justify-center items-center">
-            <div className="flex justify-center items-center">
-              <p className="border-y border-black h-10 flex justify-center items-center pr-3">
-                Deformación
-              </p>
-              <div className="flex flex-col gap-3 justify-cennter items-center">
-                <input
-                  type="checkbox"
-                  className="w-10 h-10"
-                  name="wwww"
-                  onChange="oooo"
-                ></input>
-              </div>
-            </div>
-            <div className="flex flex-col gap-5 justify-center items-center bg-red-200">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3 bg-red-200 justify-center items-center">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-          </div>
-          <div className="flex justify-center items-center">
-            <div className="flex justify-center items-center">
-              <p className="border-y border-black h-10 flex justify-center items-center pr-3">
-                Deformación
-              </p>
-              <div className="flex flex-col gap-3 justify-cennter items-center">
-                <input
-                  type="checkbox"
-                  className="w-10 h-10"
-                  name="wwww"
-                  onChange="oooo"
-                ></input>
-              </div>
-            </div>
-            <div className="flex flex-col gap-5 justify-center items-center bg-red-200">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3 bg-red-200 justify-center items-center">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-          </div>
-          <div className="flex justify-center items-center">
-            <div className="flex justify-center items-center">
-              <p className="border-y border-black h-10 flex justify-center items-center pr-3">
-                Deformación
-              </p>
-              <div className="flex flex-col gap-3 justify-cennter items-center">
-                <input
-                  type="checkbox"
-                  className="w-10 h-10"
-                  name="wwww"
-                  onChange="oooo"
-                ></input>
-              </div>
-            </div>
-            <div className="flex flex-col gap-5 justify-center items-center bg-red-200">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3 bg-red-200 justify-center items-center">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-          </div>
-          <div className="flex justify-center items-center">
-            <div className="flex justify-center items-center">
-              <p className="border-y border-black h-10 flex justify-center items-center pr-3">
-                Deformación
-              </p>
-              <div className="flex flex-col gap-3 justify-cennter items-center">
-                <input
-                  type="checkbox"
-                  className="w-10 h-10"
-                  name="wwww"
-                  onChange="oooo"
-                ></input>
-              </div>
-            </div>
-            <div className="flex flex-col gap-5 justify-center items-center bg-red-200">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3 bg-red-200 justify-center items-center">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-          </div>
-          <div className="flex justify-center items-center">
-            <div className="flex justify-center items-center">
-              <p className="border-y border-black h-10 flex justify-center items-center pr-3">
-                Deformación
-              </p>
-              <div className="flex flex-col gap-3 justify-cennter items-center">
-                <input
-                  type="checkbox"
-                  className="w-10 h-10"
-                  name="wwww"
-                  onChange="oooo"
-                ></input>
-              </div>
-            </div>
-            <div className="flex flex-col gap-5 justify-center items-center bg-red-200">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3 bg-red-200 justify-center items-center">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-          </div>
-          <div className="flex justify-center items-center">
-            <div className="flex justify-center items-center">
-              <p className="border-y border-black h-10 flex justify-center items-center pr-3">
-                Deformación
-              </p>
-              <div className="flex flex-col gap-3 justify-cennter items-center">
-                <input
-                  type="checkbox"
-                  className="w-10 h-10"
-                  name="wwww"
-                  onChange="oooo"
-                ></input>
-              </div>
-            </div>
-            <div className="flex flex-col gap-5 justify-center items-center bg-red-200">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3 bg-red-200 justify-center items-center">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-          </div>
-          <div className="flex justify-center items-center">
-            <div className="flex justify-center items-center">
-              <p className="border-y border-black h-10 flex justify-center items-center pr-3">
-                Deformación
-              </p>
-              <div className="flex flex-col gap-3 justify-cennter items-center">
-                <input
-                  type="checkbox"
-                  className="w-10 h-10"
-                  name="wwww"
-                  onChange="oooo"
-                ></input>
-              </div>
-            </div>
-            <div className="flex flex-col gap-5 justify-center items-center bg-red-200">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3 bg-red-200 justify-center items-center">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-            <div className="flex flex-col gap-3">
-              <input
-                type="checkbox"
-                className="w-10 h-10"
-                name="wwww"
-                onChange="oooo"
-              ></input>
-            </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
       <section className="w-full flex mt-6 ml-4 border-t border-t-black flex-col justify-center items-center gap-3">
-        <label>Epicrisis</label>
-        <textarea placeholder="Escriba aquí..."></textarea>
+        <label className="font-bold ">Epicrisis</label>
+        <textarea placeholder="Escriba aquí..." className="textArea w-4/5 h-60 border border-black shadow-lg shadow-zinc-300 rounded-lg"></textarea>
       </section>
 
       <section className="w-full flex mt-6 ml-4 justify-center items-center gap-3">
@@ -3025,7 +3027,7 @@ function App() {
               )
             }
           />
-          <p>Firma Paciente</p>
+          <p className="font-bold">Firma Paciente</p>
         </div>
         <div className="w-1/2 flex flex-col justify-center items-center">
           <SignatureCanvas
@@ -3038,7 +3040,7 @@ function App() {
               )
             }
           />
-          <p>Firma Testigo</p>
+          <p className="font-bold">Firma Testigo</p>
         </div>{" "}
       </section>
       <section className="w-full flex mt-6 ml-4 justify-center items-center gap-3">
@@ -3054,7 +3056,7 @@ function App() {
               )
             }
           />
-          <p>Médico GrupoIE</p>
+          <p className="font-bold">Médico GrupoIE</p>
         </div>
         <div className="w-1/2 flex flex-col justify-center items-center">
           <SignatureCanvas
@@ -3067,292 +3069,293 @@ function App() {
               )
             }
           />
-          <p>Médico Receptor</p>
+          <p className="font-bold">Médico Receptor</p>
         </div>{" "}
       </section>
 
       {/* Medicación utilizada */}
 
       <section className="my-10 flex flex-col justify-center items-center gap-4">
-        <h3>Medicación utilizada</h3>
+        <h3 className="font-bold">Medicación utilizada</h3>
         <div className="w-full flex">
           <div className="w-1/2 flex flex-col justify-center items-center">
             <div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-38 p-2  font-semibold">Abbocath N°14</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-34 relative left-6 border-black"
               ></input>
             </div>
             <div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-38 p-2 font-semibold">Abbocath N°16</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-34 relative left-6 border-black"
               ></input>
             </div>
             <div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-38 p-2 font-semibold">Abbocath N°18</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-34 relative left-6 border-black"
               ></input>
             </div>
             <div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-38 p-2 font-semibold">Abbocath N°20</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-34 relative left-6 border-black"
               ></input>
             </div>
             <div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-38 p-2 font-semibold">Abbocath N°22</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-34 relative left-6 border-black"
               ></input>
             </div>
             <div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-38 p-2 font-semibold">Abbocath N°24</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-34 relative left-6 border-black"
               ></input>
             </div>
             <div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-38 p-2 font-semibold">Adrenalina</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-25 relative left-10 border-black"
               ></input>
             </div>
             <div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-38 p-2 font-semibold">Aguja 21G</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-25 relative left-[43px] border-black"
               ></input>
             </div>
             <div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-38 p-2 font-semibold">Aguja 25/8</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-25 relative left-10 border-black"
               ></input>
             </div>
             <div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-38 p-2 font-semibold">Aguja 40/8</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-25 relative left-10 border-black"
               ></input>
             </div>
             <div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-38 p-2 font-semibold">Aguja 50/8</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-25 relative left-10 border-black"
               ></input>
             </div>
             <div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-38 p-2 font-semibold">Amlodipina</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-25 relative left-10 border-black"
               ></input>
             </div>
             <div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-full h-full  p-2 font-semibold">{`Aspirina Comprimidos`}</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-25  border-black"
               ></input>
             </div>
             <div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-38 p-2 font-semibold">Atropina</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-38 relative left-12  border-black"
               ></input>
             </div>
             <div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-38 p-2 font-semibold">Baja lenguas</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-38 relative left-[34px] border-black"
               ></input>
             </div>
             <div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-38 p-2 font-semibold">Butterfly N°19</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-38 relative left-7 border-black"
               ></input>
             </div>
             <div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-38 p-2 font-semibold">Butterfly N°21</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-38 relative left-7 border-black"
               ></input>
             </div>
             <div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-38 p-2 font-semibold">Butterfly N°23</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-38 relative left-7 border-black"
               ></input>
             </div>
             <div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-38 p-2 font-semibold">Butterfly N°25</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-38 relative left-7 border-black"
               ></input>
             </div>
             <div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-38 p-2 font-semibold">Bisturí</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-38 relative left-14 border-black"
               ></input>
             </div>
             <div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-38 p-2 font-semibold">Hioscina</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-38 relative left-12 border-black"
               ></input>
             </div>
             <div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-38 p-2 relative right-2 font-semibold">Cánula de Mayo 50 mm</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-38 relative right-2 border-black"
               ></input>
             </div>
             <div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-38  relative top-2 font-semibold">Cánula de Mayo N°1</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-38  h-[40px] relative left-[12.5px] border-black"
               ></input>
             </div>
             <div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-38 relative top-2 font-semibold">Cánula de Mayo N°2</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-38 h-[40px] relative left-[12.5px] border-black"
               ></input>
             </div>
             <div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-38  relative top-2 font-semibold">Cánula de Mayo N°3</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-38 h-[40px] relative left-[12px] border-black"
               ></input>
             </div>
           </div>
-          <div className="w-1/2 flex flex-col justify-center items-center">
-          <div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+
+          <div className="w-1/2 flex flex-col justify-center items-center ">
+          <div className="flex gap-1 ">
+              <p className="w-38 relative top-[15px] font-semibold ">Furosemida</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-[181px] h-[40px] relative top-[5px] left-[61px]  border-black"
               ></input>
             </div><div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-38 relative top-[15px] font-semibold">Glucosado</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-[181px] h-[40px] relative top-[5px] left-[65px] border-black"
               ></input>
             </div><div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-38 relative top-[15px] right-2 font-semibold">Guía Macro Goteo V14</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-[181px] h-[40px] relative top-[5px] left-[22px]  border-black"
               ></input>
             </div><div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-38 relative top-[15px] font-semibold">Guía Micro Goteo</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-[181px] h-[40px] relative  top-[5px] left-[39px] border-black"
               ></input>
             </div><div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-38 relative top-[15px] font-semibold">Haloperidol</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-[181px] h-[40px] relative  top-[5px] left-[61px] border-black"
               ></input>
             </div><div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-38 relative top-[15px] font-semibold">Hidrocortisona</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-[181px] h-[40px] relative top-[5px] left-[49px] border-black"
               ></input>
             </div><div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-38 relative top-[15px] font-semibold">Isordil</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-[181px] h-[40px] relative top-[5px] left-[81px] border-black"
               ></input>
             </div><div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-40 relative top-[15px] left-7 font-semibold ">Jeringa 10ml</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-[181px] h-[40px] relative top-[5px] left-[23px] border-black"
               ></input>
             </div><div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-40 top-[15px] relative left-7 font-semibold">Jeringa 20ml</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-[181px] h-[40px] relative top-[5px] left-[23px] border-black"
               ></input>
             </div><div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-40 top-[15px] relative left-8 font-semibold">Jeringa 3ml</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-[181px] h-[40px] relative top-[5px] left-[23px] border-black"
               ></input>
             </div><div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-40 relative top-[15px] left-8 font-semibold">Jeringa 5ml</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-[181px] h-[40px] relative top-[5px] left-[23px] border-black"
               ></input>
             </div><div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-full relative top-[15px] font-semibold">Jeringa insulina</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-[181px] h-[40px] relative top-[5px] left-[47px] border-black"
               ></input>
             </div><div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-full relative top-[15px] font-semibold">Ketorolac</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-[181px] h-[40px] relative top-[5px] left-[69px] border-black"
               ></input>
             </div><div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-full relative top-[15px] font-semibold">Lidocaina</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-[181px] h-[40px] relative top-[5px] left-[69px] border-black"
               ></input>
             </div><div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-full relative top-[15px] font-semibold">Llave de 3 vías</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-[181px] h-[40px] relative top-[5px] left-[51px] border-black"
               ></input>
             </div><div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-full relative top-[15px] font-semibold">Lorazepan S/L</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-[181px] h-[40px] relative top-[5px] left-[52px] border-black"
               ></input>
             </div><div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-full relative top-[15px] font-semibold">Losartan D</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-[181px] h-[40px] relative top-[5px] left-[64px] border-black"
               ></input>
             </div><div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-full relative top-[15px] font-semibold">Midazolam</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-[181px] h-[40px] relative top-[5px] left-[63px] border-black"
               ></input>
             </div><div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-full relative top-[15px] font-semibold">Nalbufina</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-[181px] h-[40px] relative top-[5px] left-[68px] border-black"
               ></input>
             </div><div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-full relative top-[15px]  font-semibold">Reliveran (Metoclopramida)</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-[181px] h-[40px] relative top-[5px] left-[3px] border-black"
               ></input>
             </div><div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-full relative top-[15px] font-semibold">Solución Fisiológica x 250</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-[181px] h-[40px] relative top-[5px] left-[10px] border-black"
               ></input>
             </div><div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-full relative top-[15px] font-semibold">Sonda de Aspiración-adultos</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-[181px] h-[40px] relative top-[5px] right-[1px]  border-black"
               ></input>
             </div><div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-full relative top-[5px] left-4 font-semibold">Sonda de Aspiración-pediátricos</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-[181px] h-[40px] relative top-[5px] right-[9px] border-black"
               ></input>
             </div><div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-full relative top-[12px] right-2 font-semibold">Sonda Nasogástrica K 29</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-[181px] h-[40px] relative bottom-[3px] left-[13px] border-black"
               ></input>
             </div><div className="flex gap-1">
-              <p className="w-full">Abbocath N°14</p>
+              <p className="w-full relative top-[15px] right-2 font-semibold">Sonda Nasogástrica K 32</p>
               <input
-                className="border-b w-full border-black"
+                className="border-b w-[181px] h-[40px] relative bottom-[3px] left-[13px] border-black"
               ></input>
             </div>
           </div>
@@ -3361,12 +3364,13 @@ function App() {
 
       {/* Button */}
 
+     
+      </div>
       <section className="w-full flex justify-center items-center my-10">
         <div className="1/4">
         <button onClick={handlePrint} class="py-2 px-4  bg-[#F37435]  text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">Descargar AHORA</button>
         </div>
       </section>
-      </div>
     </>
   );
 }
