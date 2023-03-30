@@ -3079,283 +3079,283 @@ function App() {
         <h3 className="font-bold">Medicación utilizada</h3>
         <div className="w-full flex">
           <div className="w-1/2 flex flex-col justify-center items-center">
-            <div className="flex gap-1">
+            <div className="flex gap-1  ">
               <p className="w-38 p-2  font-semibold">Abbocath N°14</p>
               <input
-                className="border-b w-34 relative left-6 border-black"
+                className="border-b w-34 relative left-6 border-black m-2"
               ></input>
             </div>
             <div className="flex gap-1">
               <p className="w-38 p-2 font-semibold">Abbocath N°16</p>
               <input
-                className="border-b w-34 relative left-6 border-black"
+                className="border-b w-34 relative left-6 border-black m-2"
               ></input>
             </div>
             <div className="flex gap-1">
               <p className="w-38 p-2 font-semibold">Abbocath N°18</p>
               <input
-                className="border-b w-34 relative left-6 border-black"
+                className="border-b w-34 relative left-6 border-black m-2"
               ></input>
             </div>
             <div className="flex gap-1">
               <p className="w-38 p-2 font-semibold">Abbocath N°20</p>
               <input
-                className="border-b w-34 relative left-6 border-black"
+                className="border-b w-34 relative left-6 border-black m-2"
               ></input>
             </div>
             <div className="flex gap-1">
               <p className="w-38 p-2 font-semibold">Abbocath N°22</p>
               <input
-                className="border-b w-34 relative left-6 border-black"
+                className="border-b w-34 relative left-6 border-black m-2"
               ></input>
             </div>
             <div className="flex gap-1">
               <p className="w-38 p-2 font-semibold">Abbocath N°24</p>
               <input
-                className="border-b w-34 relative left-6 border-black"
+                className="border-b w-34 relative left-6 border-black m-2"
               ></input>
             </div>
             <div className="flex gap-1">
               <p className="w-38 p-2 font-semibold">Adrenalina</p>
               <input
-                className="border-b w-25 relative left-10 border-black"
+                className="border-b w-25 relative left-10 border-black m-2"
               ></input>
             </div>
             <div className="flex gap-1">
               <p className="w-38 p-2 font-semibold">Aguja 21G</p>
               <input
-                className="border-b w-25 relative left-[43px] border-black"
+                className="border-b w-25 relative left-[43px] border-black m-2"
               ></input>
             </div>
             <div className="flex gap-1">
               <p className="w-38 p-2 font-semibold">Aguja 25/8</p>
               <input
-                className="border-b w-25 relative left-10 border-black"
+                className="border-b w-25 relative left-10 border-black m-2"
               ></input>
             </div>
             <div className="flex gap-1">
               <p className="w-38 p-2 font-semibold">Aguja 40/8</p>
               <input
-                className="border-b w-25 relative left-10 border-black"
+                className="border-b w-25 relative left-10 border-black m-2"
               ></input>
             </div>
             <div className="flex gap-1">
               <p className="w-38 p-2 font-semibold">Aguja 50/8</p>
               <input
-                className="border-b w-25 relative left-10 border-black"
+                className="border-b w-25 relative left-10 border-black m-2"
               ></input>
             </div>
             <div className="flex gap-1">
               <p className="w-38 p-2 font-semibold">Amlodipina</p>
               <input
-                className="border-b w-25 relative left-10 border-black"
+                className="border-b w-25 relative left-10 border-black m-2"
               ></input>
             </div>
             <div className="flex gap-1">
               <p className="w-full h-full  p-2 font-semibold">{`Aspirina Comprimidos`}</p>
               <input
-                className="border-b w-25  border-black"
+                className="border-b w-25  border-black m-2"
               ></input>
             </div>
             <div className="flex gap-1">
               <p className="w-38 p-2 font-semibold">Atropina</p>
               <input
-                className="border-b w-38 relative left-12  border-black"
+                className="border-b w-38 relative left-12  border-black m-2"
               ></input>
             </div>
             <div className="flex gap-1">
               <p className="w-38 p-2 font-semibold">Baja lenguas</p>
               <input
-                className="border-b w-38 relative left-[34px] border-black"
+                className="border-b w-38 relative left-[34px] border-black m-2"
               ></input>
             </div>
             <div className="flex gap-1">
               <p className="w-38 p-2 font-semibold">Butterfly N°19</p>
               <input
-                className="border-b w-38 relative left-7 border-black"
+                className="border-b w-38 relative left-7 border-black m-2"
               ></input>
             </div>
             <div className="flex gap-1">
               <p className="w-38 p-2 font-semibold">Butterfly N°21</p>
               <input
-                className="border-b w-38 relative left-7 border-black"
+                className="border-b w-38 relative left-7 border-black m-2"
               ></input>
             </div>
             <div className="flex gap-1">
               <p className="w-38 p-2 font-semibold">Butterfly N°23</p>
               <input
-                className="border-b w-38 relative left-7 border-black"
+                className="border-b w-38 relative left-7 border-black m-2"
               ></input>
             </div>
             <div className="flex gap-1">
               <p className="w-38 p-2 font-semibold">Butterfly N°25</p>
               <input
-                className="border-b w-38 relative left-7 border-black"
+                className="border-b w-38 relative left-7 border-black m-2"
               ></input>
             </div>
             <div className="flex gap-1">
               <p className="w-38 p-2 font-semibold">Bisturí</p>
               <input
-                className="border-b w-38 relative left-14 border-black"
+                className="border-b w-38 relative left-14 border-black m-2"
               ></input>
             </div>
             <div className="flex gap-1">
               <p className="w-38 p-2 font-semibold">Hioscina</p>
               <input
-                className="border-b w-38 relative left-12 border-black"
+                className="border-b w-38 relative left-12 border-black m-2"
               ></input>
             </div>
             <div className="flex gap-1">
               <p className="w-38 p-2 relative right-2 font-semibold">Cánula de Mayo 50 mm</p>
               <input
-                className="border-b w-38 relative right-2 border-black"
+                className="border-b w-38 relative right-2 border-black m-2"
               ></input>
             </div>
             <div className="flex gap-1">
               <p className="w-38  relative top-2 font-semibold">Cánula de Mayo N°1</p>
               <input
-                className="border-b w-38  h-[40px] relative left-[12.5px] border-black"
+                className="border-b w-[181px] h-[25px] relative left-[12.5px] border-black m-2"
               ></input>
             </div>
             <div className="flex gap-1">
               <p className="w-38 relative top-2 font-semibold">Cánula de Mayo N°2</p>
               <input
-                className="border-b w-38 h-[40px] relative left-[12.5px] border-black"
+                className="border-b w-[181px] h-[25px] relative left-[12.5px] border-black m-2"
               ></input>
             </div>
             <div className="flex gap-1">
               <p className="w-38  relative top-2 font-semibold">Cánula de Mayo N°3</p>
               <input
-                className="border-b w-38 h-[40px] relative left-[12px] border-black"
+                className="border-b w-[181px] h-[25px] relative left-[12px] border-black m-2"
               ></input>
             </div>
           </div>
 
-          <div className="w-1/2 flex flex-col justify-center items-center ">
+          <div className="w-1/2 flex flex-col justify-center items-center">
           <div className="flex gap-1 ">
               <p className="w-38 relative top-[15px] font-semibold ">Furosemida</p>
               <input
-                className="border-b w-[181px] h-[40px] relative top-[5px] left-[61px]  border-black"
+                className="border-b w-[181px] h-[25px] relative top-[5px] left-[61px]  border-black m-2"
               ></input>
-            </div><div className="flex gap-1">
+            </div><div className="flex gap-1 ">
               <p className="w-38 relative top-[15px] font-semibold">Glucosado</p>
               <input
-                className="border-b w-[181px] h-[40px] relative top-[5px] left-[65px] border-black"
+                className="border-b w-[181px] h-[25px] relative top-[5px] left-[65px] border-black m-2"
               ></input>
-            </div><div className="flex gap-1">
+            </div><div className="flex gap-1 ">
               <p className="w-38 relative top-[15px] right-2 font-semibold">Guía Macro Goteo V14</p>
               <input
-                className="border-b w-[181px] h-[40px] relative top-[5px] left-[22px]  border-black"
+                className="border-b w-[181px] h-[25px] relative top-[5px] left-[22px]  border-black m-2"
               ></input>
-            </div><div className="flex gap-1">
+            </div><div className="flex gap-1 ">
               <p className="w-38 relative top-[15px] font-semibold">Guía Micro Goteo</p>
               <input
-                className="border-b w-[181px] h-[40px] relative  top-[5px] left-[39px] border-black"
+                className="border-b w-[181px] h-[25px] relative  top-[5px] left-[39px] border-black m-2"
               ></input>
-            </div><div className="flex gap-1">
+            </div><div className="flex gap-1 ">
               <p className="w-38 relative top-[15px] font-semibold">Haloperidol</p>
               <input
-                className="border-b w-[181px] h-[40px] relative  top-[5px] left-[61px] border-black"
+                className="border-b w-[181px] h-[25px] relative  top-[5px] left-[61px] border-black m-2"
               ></input>
-            </div><div className="flex gap-1">
+            </div><div className="flex gap-1 ">
               <p className="w-38 relative top-[15px] font-semibold">Hidrocortisona</p>
               <input
-                className="border-b w-[181px] h-[40px] relative top-[5px] left-[49px] border-black"
+                className="border-b w-[181px] h-[25px] relative top-[5px] left-[49px] border-black m-2"
               ></input>
-            </div><div className="flex gap-1">
+            </div><div className="flex gap-1 ">
               <p className="w-38 relative top-[15px] font-semibold">Isordil</p>
               <input
-                className="border-b w-[181px] h-[40px] relative top-[5px] left-[81px] border-black"
+                className="border-b w-[181px] h-[25px] relative top-[5px] left-[81px] border-black m-2"
               ></input>
-            </div><div className="flex gap-1">
+            </div><div className="flex gap-1 ">
               <p className="w-40 relative top-[15px] left-7 font-semibold ">Jeringa 10ml</p>
               <input
-                className="border-b w-[181px] h-[40px] relative top-[5px] left-[23px] border-black"
+                className="border-b w-[181px] h-[25px] relative top-[5px] left-[23px] border-black m-2"
               ></input>
-            </div><div className="flex gap-1">
+            </div><div className="flex gap-1 ">
               <p className="w-40 top-[15px] relative left-7 font-semibold">Jeringa 20ml</p>
               <input
-                className="border-b w-[181px] h-[40px] relative top-[5px] left-[23px] border-black"
+                className="border-b w-[181px] h-[25px] relative top-[5px] left-[23px] border-black m-2"
               ></input>
-            </div><div className="flex gap-1">
+            </div><div className="flex gap-1 ">
               <p className="w-40 top-[15px] relative left-8 font-semibold">Jeringa 3ml</p>
               <input
-                className="border-b w-[181px] h-[40px] relative top-[5px] left-[23px] border-black"
+                className="border-b w-[181px] h-[25px] relative top-[5px] left-[23px] border-black m-2"
               ></input>
-            </div><div className="flex gap-1">
+            </div><div className="flex gap-1 ">
               <p className="w-40 relative top-[15px] left-8 font-semibold">Jeringa 5ml</p>
               <input
-                className="border-b w-[181px] h-[40px] relative top-[5px] left-[23px] border-black"
+                className="border-b w-[181px] h-[25px] relative top-[5px] left-[23px] border-black m-2"
               ></input>
-            </div><div className="flex gap-1">
+            </div><div className="flex gap-1 ">
               <p className="w-full relative top-[15px] font-semibold">Jeringa insulina</p>
               <input
-                className="border-b w-[181px] h-[40px] relative top-[5px] left-[47px] border-black"
+                className="border-b w-[181px] h-[25px] relative top-[5px] left-[47px] border-black m-2"
               ></input>
-            </div><div className="flex gap-1">
+            </div><div className="flex gap-1 ">
               <p className="w-full relative top-[15px] font-semibold">Ketorolac</p>
               <input
-                className="border-b w-[181px] h-[40px] relative top-[5px] left-[69px] border-black"
+                className="border-b w-[181px] h-[25px] relative top-[5px] left-[69px] border-black m-2"
               ></input>
-            </div><div className="flex gap-1">
+            </div><div className="flex gap-1 ">
               <p className="w-full relative top-[15px] font-semibold">Lidocaina</p>
               <input
-                className="border-b w-[181px] h-[40px] relative top-[5px] left-[69px] border-black"
+                className="border-b w-[181px] h-[25px] relative top-[5px] left-[69px] border-black m-2"
               ></input>
-            </div><div className="flex gap-1">
+            </div><div className="flex gap-1 ">
               <p className="w-full relative top-[15px] font-semibold">Llave de 3 vías</p>
               <input
-                className="border-b w-[181px] h-[40px] relative top-[5px] left-[51px] border-black"
+                className="border-b w-[181px] h-[25px] relative top-[5px] left-[51px] border-black m-2"
               ></input>
-            </div><div className="flex gap-1">
+            </div><div className="flex gap-1 ">
               <p className="w-full relative top-[15px] font-semibold">Lorazepan S/L</p>
               <input
-                className="border-b w-[181px] h-[40px] relative top-[5px] left-[52px] border-black"
+                className="border-b w-[181px] h-[25px] relative top-[5px] left-[52px] border-black m-2"
               ></input>
-            </div><div className="flex gap-1">
+            </div><div className="flex gap-1 ">
               <p className="w-full relative top-[15px] font-semibold">Losartan D</p>
               <input
-                className="border-b w-[181px] h-[40px] relative top-[5px] left-[64px] border-black"
+                className="border-b w-[181px] h-[25px] relative top-[5px] left-[64px] border-black m-2"
               ></input>
-            </div><div className="flex gap-1">
+            </div><div className="flex gap-1 ">
               <p className="w-full relative top-[15px] font-semibold">Midazolam</p>
               <input
-                className="border-b w-[181px] h-[40px] relative top-[5px] left-[63px] border-black"
+                className="border-b w-[181px] h-[25px] relative top-[5px] left-[63px] border-black m-2"
               ></input>
-            </div><div className="flex gap-1">
+            </div><div className="flex gap-1 ">
               <p className="w-full relative top-[15px] font-semibold">Nalbufina</p>
               <input
-                className="border-b w-[181px] h-[40px] relative top-[5px] left-[68px] border-black"
+                className="border-b w-[181px] h-[25px] relative top-[5px] left-[68px] border-black m-2"
               ></input>
-            </div><div className="flex gap-1">
+            </div><div className="flex gap-1 ">
               <p className="w-full relative top-[15px]  font-semibold">Reliveran (Metoclopramida)</p>
               <input
-                className="border-b w-[181px] h-[40px] relative top-[5px] left-[3px] border-black"
+                className="border-b w-[181px] h-[25px] relative top-[5px] left-[3px] border-black m-2"
               ></input>
-            </div><div className="flex gap-1">
+            </div><div className="flex gap-1 ">
               <p className="w-full relative top-[15px] font-semibold">Solución Fisiológica x 250</p>
               <input
-                className="border-b w-[181px] h-[40px] relative top-[5px] left-[10px] border-black"
+                className="border-b w-[181px] h-[25px] relative top-[5px] left-[10px] border-black m-2"
               ></input>
-            </div><div className="flex gap-1">
-              <p className="w-full relative top-[15px] font-semibold">Sonda de Aspiración-adultos</p>
+            </div><div className="flex gap-1 ">
+              <p className="w-full relative top-[12px] right-1 font-semibold">Sonda de Aspiración-adultos</p>
               <input
-                className="border-b w-[181px] h-[40px] relative top-[5px] right-[1px]  border-black"
+                className="border-b w-[181px] h-[25px] relative top-[5px] right-[1px]  border-black m-2"
               ></input>
-            </div><div className="flex gap-1">
-              <p className="w-full relative top-[5px] left-4 font-semibold">Sonda de Aspiración-pediátricos</p>
+            </div><div className="flex gap-1 ">
+              <p className="w-full relative top-[5px]  font-semibold">Sonda de Aspiración-pediátricos</p>
               <input
-                className="border-b w-[181px] h-[40px] relative top-[5px] right-[9px] border-black"
+                className="border-b w-[181px] h-[25px] relative top-[8px] right-[2px] border-black m-2"
               ></input>
-            </div><div className="flex gap-1">
+            </div><div className="flex gap-1 ">
               <p className="w-full relative top-[12px] right-2 font-semibold">Sonda Nasogástrica K 29</p>
               <input
-                className="border-b w-[181px] h-[40px] relative bottom-[3px] left-[13px] border-black"
+                className="border-b w-[181px] h-[25px] relative top-[4px] left-[13px] border-black m-2"
               ></input>
-            </div><div className="flex gap-1">
-              <p className="w-full relative top-[15px] right-2 font-semibold">Sonda Nasogástrica K 32</p>
+            </div><div className="flex gap-1 ">
+              <p className="w-full relative top-[4px] right-2 font-semibold">Sonda Nasogástrica K 32</p>
               <input
-                className="border-b w-[181px] h-[40px] relative bottom-[3px] left-[13px] border-black"
+                className="border-b w-[181px] h-[25px] relative bottom-[3px] left-[13px] border-black m-2"
               ></input>
             </div>
           </div>
