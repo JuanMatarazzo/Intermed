@@ -10,13 +10,13 @@ import { useReactToPrint } from "react-to-print";
 
 function App() {
 
-  const config = {
-    secureToken: "315a9dbe-874e-4233-a99e-b950e800250e",
-    to: 'them@website.com',
-    from: "you@isp.com",
-    subject: "This is the subject",
-    body: "And this is the body"
-  }
+  // const config = {
+  //   secureToken: "315a9dbe-874e-4233-a99e-b950e800250e",
+  //   to: 'them@website.com',
+  //   from: "you@isp.com",
+  //   subject: "This is the subject",
+  //   body: "And this is the body"
+  // }
 
   // PDF DESCARGAR----
   const componentRef = useRef();
@@ -27,19 +27,19 @@ function App() {
     onAfterPrint: () => alert("Success"),
   });
 
-  const submitAd = (event) => {
-    event.preventDefault()
-    const config = {
-      secureToken: "315a9dbe-874e-4233-a99e-b950e800250e",
-      to: 'juin@hotmail.com.ar',
-      from: "juin@hotmail.com.ar",
-      subject: "This is the subject",
-      body: "And this is the body"
-    }
-    if (window.Email) (
-      window.Email.send(config).then(() => alert("ads"))
-    )
-  }
+  // const submitAd = (event) => {
+  //   event.preventDefault()
+  //   const config = {
+  //     secureToken: "315a9dbe-874e-4233-a99e-b950e800250e",
+  //     to: 'juin@hotmail.com.ar',
+  //     from: "juin@hotmail.com.ar",
+  //     subject: "This is the subject",
+  //     body: "And this is the body"
+  //   }
+  //   if (window.Email) (
+  //     window.Email.send(config).then(() => alert("ads"))
+  //   )
+  // }
 
   // FINAL PDF
 
@@ -3391,7 +3391,7 @@ function App() {
       </div>
       <section className="w-full flex justify-center items-center my-10">
         <div className="1/4">
-        <button onClick={submitAd} class="py-2 px-4  bg-[#F37435]  text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">Descargar AHORA</button>
+        <button onClick={handlePrint} class="py-2 px-4  bg-[#F37435]  text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg ">Descargar AHORA</button>
         </div>
       </section>
     </>
